@@ -1,0 +1,31 @@
+alias r="clear && archey -l retro && source ~/.zshrc"
+alias spd="speedtest && networkQuality"
+alias e="exit"
+alias prh='ssh root@176.57.215.244'
+alias upd='/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan && /Applications/MacUpdater.app/Contents/Resources/macupdater_client update --force-quit-running-apps && cd ~ && bubu && softwareupdate -i -a && omz update'
+alias c="clear"
+alias lcl='colorls -lA --sd'
+alias lc='colorls --sd'
+alias lca='colorls -A --sd'
+alias lcr='colorls --report --sd'
+alias ycs3='aws s3 --endpoint-url=https://storage.yandexcloud.net'
+alias evgn='ssh evgeny@evgn.ru'
+alias cloud='ssh evgeny@cloud.kushnaren.co'
+alias bot='ssh evgeny@bot.kushnaren.co'
+alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'
+alias wg='ssh evgeny@wg.kushnaren.co'
+alias duh='du -sh *'
+alias kus='ssh evgeny@kushnaren.co'
+alias ofc='ssh evgeny@office.evgn.ru'
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ping5='ping -c5'
+alias path='echo | pwd | pbcopy'
+alias q='logout'
+alias ..='cd ..'
+alias t='tmuxinator'
+alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+alias sd='cd ~/invokeai/InvokeAI/ && conda activate invokeai && python scripts/invoke.py --web'
+alias ccat='pygmentize -g -O style=github-dark,linenos=1'
+alias aliasls='ccat ~/.aliases | grep alias'
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
