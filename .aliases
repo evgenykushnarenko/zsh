@@ -28,5 +28,6 @@ alias sd='cd ~/invokeai/InvokeAI/ && conda activate invokeai && python scripts/i
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
 alias getalias='wget -O ~/.aliases https://evgn.ru/za && r && print ALIASES UPDATED'
 alias aliasls='ccat ~/.aliases | grep alias'
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig='mate ~/.zshrc'
+alias ohmyzsh='mate ~/.oh-my-zsh'
+alias tc="wine64 '/Users/evgeny/.wine/drive_c/Program Files/totalcmd/TOTALCMD64.EXE'"
