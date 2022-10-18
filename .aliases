@@ -1,22 +1,27 @@
-alias r="clear && archey -l retro && source ~/.zshrc"
+### SSH SERVER LINKS ###
+alias doc='ssh evgeny@doc.evgn.ru'                                              ## DOC
+alias prh='ssh root@prh.su'                                                     ## PRH
+alias evgn='ssh evgeny@evgn.ru'                                                 ## EVGN
+alias cloud='ssh evgeny@cloud.kushnaren.co'                                     ## CLOUD
+alias bot='ssh evgeny@bot.kushnaren.co'                                         ## BOT
+alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'  ## NAS
+alias wg='ssh evgeny@wg.kushnaren.co'                                           ## WG
+alias kus='ssh evgeny@kushnaren.co'                                             ## KUS
+alias ofc='ssh evgeny@office.evgn.ru'                                           ## OFC
+
+### OPERATION ###
+alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
+alias e="exit"                                                                  ## E - exit
+alias c="clear"                                                                 ## C - clear
+
 alias spd="speedtest && networkQuality"
-alias e="exit"
-alias prh='ssh root@176.57.215.244'
 alias upd='/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan && /Applications/MacUpdater.app/Contents/Resources/macupdater_client update --force-quit-running-apps && cd ~ && bubu && softwareupdate -i -a && omz update'
-alias c="clear"
 alias lcl='colorls -lA --sd'
 alias lc='colorls --sd'
 alias lca='colorls -A --sd'
 alias lcr='colorls --report --sd'
 alias ycs3='aws s3 --endpoint-url=https://storage.yandexcloud.net'
-alias evgn='ssh evgeny@evgn.ru'
-alias cloud='ssh evgeny@cloud.kushnaren.co'
-alias bot='ssh evgeny@bot.kushnaren.co'
-alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'
-alias wg='ssh evgeny@wg.kushnaren.co'
 alias duh='du -sh *'
-alias kus='ssh evgeny@kushnaren.co'
-alias ofc='ssh evgeny@office.evgn.ru'
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ping5='ping -c5'
 alias path='echo | pwd | pbcopy'
