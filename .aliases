@@ -30,4 +30,4 @@ alias getalias='wget -O ~/.aliases https://evgn.ru/za && r && print ALIASES UPDA
 alias aliasls='ccat ~/.aliases | grep alias'
 alias zshconfig='mate ~/.zshrc'
 alias ohmyzsh='mate ~/.oh-my-zsh'
-alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgen && sudo killall -s SIGINT Dock'
+alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgent && sudo killall -s SIGINT Dock'
