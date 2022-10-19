@@ -10,7 +10,7 @@ alias kus='ssh evgeny@kushnaren.co'                                             
 alias ofc='ssh evgeny@office.evgn.ru'                                           ## OFC
 
 ### OPERATION ###
-alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
+alias r="conda deactivate && conda deactivate && clear && archey -l retro && source ~/.zshrc"                           ## R - reset
 alias e="exit"                                                                  ## E - exit
 alias c="clear"                                                                 ## C - clear
 
