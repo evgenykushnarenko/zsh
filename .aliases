@@ -15,7 +15,7 @@ alias e="exit"                                                                  
 alias c="conda deactivate && conda deactivate && clear"                         ## C - clear && Conda deactivate
 
 ### SNIPPETS ###
-alias chat="open -a Whatsapp && open -a Whatsapp2 && open -a 'Telegram Z' && open -a 'Telehram Z2'"
+alias chat="open -a Whatsapp && open -a Whatsapp2 && open -a 'Telegram Z' && open -a 'Telegram Z2'"
 
 alias spd="speedtest && networkQuality"
 alias upd='/Applications/MacUpdater.app/Contents/Resources/macupdater_client scan && /Applications/MacUpdater.app/Contents/Resources/macupdater_client update --force-quit-running-apps && cd ~ && bubu && softwareupdate -i -a && omz update'
