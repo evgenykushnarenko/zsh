@@ -15,7 +15,7 @@ alias e="exit"                                                                  
 alias c="conda deactivate && conda deactivate && clear"                         ## C - clear && Conda deactivate
 
 ### WINDOW MANIPULATION ###
-alias ws='vsplit_tab'                                                           ## VS - Vertical Split tab
+alias vs='vsplit_tab'                                                           ## VS - Vertical Split tab
 alias hs='split_tab'                                                            ## HS - Horizontal Split tab
 
 ### SNIPPETS ###
