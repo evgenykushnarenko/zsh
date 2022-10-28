@@ -12,7 +12,7 @@ alias ofc='ssh evgeny@office.evgn.ru'                                           
 ### OPERATION ###
 alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
 alias e="exit"                                                                  ## E - exit
-alias c="conda deactivate && conda deactivate && clear"                         ## C - clear && Conda deactivate
+alias c="conda deactivate && source deactivate && clear"                        ## C - clear && Conda deactivate
 
 ### WINDOW MANIPULATION ###
 alias vs='vsplit_tab'                                                           ## VS - Vertical Split tab
@@ -36,7 +36,7 @@ alias q='logout'
 alias ..='cd ..'
 alias t='tmuxinator'
 alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
-alias sd='cd ~/Files.localized/AI/InvokeAI/ && conda activate invokeai && python scripts/invoke.py --web'
+alias sd='cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                  ## SD - Stable Diffusion start
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
 alias getalias='wget -O ~/.aliases https://evgn.ru/za && r && print ALIASES UPDATED'
 alias aliasls='ccat ~/.aliases | grep alias'
