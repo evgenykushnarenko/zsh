@@ -36,6 +36,10 @@ alias q='logout'
 alias ..='cd ..'
 alias t='tmuxinator'
 alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+
+### SOFTWARE ###
+
+alias yl='jupyter-lab'								## YL - Yupiter Lab
 alias sd='cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                  ## SD - Stable Diffusion start
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
 alias getalias='wget -O ~/.aliases https://evgn.ru/za && r && print ALIASES UPDATED'
