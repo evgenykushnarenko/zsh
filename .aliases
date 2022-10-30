@@ -42,9 +42,12 @@ alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 
 alias yl='jupyter-lab'								## YL - Yupiter Lab
 alias sd='cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                  ## SD - Stable Diffusion start
+
+### MISC ###
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
 alias getalias='wget -O ~/.aliases https://evgn.ru/za && r && print ALIASES UPDATED'
 alias aliasls='ccat ~/.aliases | grep alias'
 alias zshconfig='mate ~/.zshrc'
 alias ohmyzsh='mate ~/.oh-my-zsh'
 alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgent && sudo killall -s SIGINT Dock'
+
