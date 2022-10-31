@@ -12,7 +12,8 @@ alias ofc='ssh evgeny@office.evgn.ru'                                           
 ### OPERATION ###
 alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
 alias e="exit"                                                                  ## E - exit
-alias c="clear && conda deactivate && source deactivate && clear"                        ## C - clear && Conda deactivate
+alias c="clear && conda deactivate && source deactivate && clear"               ## C - clear && Conda deactivate
+alias cf='copyfile'								## CP - Copy File to clipboard
 
 ### WINDOW MANIPULATION ###
 alias vs='vsplit_tab'                                                           ## VS - Vertical Split tab
