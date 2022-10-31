@@ -43,7 +43,7 @@ alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 ### SOFTWARE ###
 
 alias yl='jupyter-lab'								## YL - Yupiter Lab
-alias sd='cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh && open -a Invoke-AI'                  ## SD - Stable Diffusion start
+alias sd='open -a Invoke-AI && cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                  ## SD - Stable Diffusion start
 
 ### MISC ###
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
