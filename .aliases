@@ -8,6 +8,7 @@ alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'  
 alias wig='ssh evgeny@wg.kushnaren.co'                                          ## WIG
 alias kus='ssh evgeny@kushnaren.co'                                             ## KUS
 alias ofc='ssh evgeny@office.evgn.ru'                                           ## OFC
+alias test='ssh evgeny@test.evgn.ru'						## TEST
 
 ### OPERATION ###
 alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
