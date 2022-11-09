@@ -54,3 +54,6 @@ alias zshconfig='mate ~/.zshrc'
 alias ohmyzsh='mate ~/.oh-my-zsh'
 alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgent && sudo killall -s SIGINT Dock'
 
+### PYTHON ###
+alias act='source venv.bin.activate'
+alias dact='deactivate'
