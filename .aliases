@@ -53,6 +53,7 @@ alias aliasls='ccat ~/.aliases | grep alias'
 alias zshconfig='mate ~/.zshrc'
 alias ohmyzsh='mate ~/.oh-my-zsh'
 alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgent && sudo killall -s SIGINT Dock'
+alias dsstore='find . -name ".DS_Store" -print -delete'
 
 ### PYTHON ###
 alias act='source venv/bin/activate'
