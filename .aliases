@@ -42,9 +42,8 @@ alias t='tmuxinator'
 alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 
 ### SOFTWARE ###
-
-alias yl='jupyter-lab'								## YL - Yupiter Lab
-alias sd='open -a Invoke-AI && cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                  ## SD - Stable Diffusion start
+alias yl='jupyter-lab'								                                                ## YL - Yupiter Lab
+alias sd='open -a Invoke-AI && cd ~/Files.localized/AI/InvokeAI/ && ./start-web.sh'                 ## SD - Stable Diffusion start
 
 ### MISC ###
 alias ccat='pygmentize -g -O style=github-dark,linenos=1'
@@ -58,3 +57,7 @@ alias dsstore='find . -name ".DS_Store" -print -delete'
 ### PYTHON ###
 alias act='source venv/bin/activate'
 alias dact='deactivate'
+
+### GIT ###
+alias gcos='git add -A && git commit -m "Message"'                                                  ## GCOS Git add all & Git commit
+alias gpush='git puss origin main'                                                                  ## GPUSH Git push origin main                                                   
