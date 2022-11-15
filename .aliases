@@ -25,7 +25,7 @@ alias hs='split_tab'                                                            
 alias chat="open -a Whatsapp && open -a Whatsapp2 && open -a 'Telegram Z' && open -a 'Telegram Z2'"
 
 alias spd="speedtest && networkQuality"
-alias upd='cfonts 'UPD STARAT' -f block -g blue,red && /Applications/MacUpdater.app/Contents/Resources/macupdater_client scan && /Applications/MacUpdater.app/Contents/Resources/macupdater_client update --force-quit-running-apps && cd ~ && bubu && softwareupdate -i -a && omz update && cfonts 'UPD FINISH' -f block -g red,blue'
+alias upd="cfonts 'UPD START' -f block -g blue,red && /Applications/MacUpdater.app/Contents/Resources/macupdater_client scan && /Applications/MacUpdater.app/Contents/Resources/macupdater_client update --force-quit-running-apps && cd ~ && bubu && softwareupdate -i -a && omz update && cfonts 'UPD FINISH' -f block -g red,blue"
 alias lcl='colorls -lA --sd'
 alias lc='colorls --sd'
 alias lca='colorls -A --sd'
