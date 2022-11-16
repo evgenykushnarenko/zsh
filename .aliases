@@ -6,9 +6,9 @@ alias cloud='ssh evgeny@cloud.kushnaren.co'                                     
 alias bot='ssh evgeny@bot.kushnaren.co'                                         ## BOT
 alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'  ## NAS
 alias wig='ssh evgeny@wg.kushnaren.co'                                          ## WIG
-alias kus='ssh evgeny@kushnaren.co'                                             ## KUS
+alias kus='mosh evgeny@kushnaren.co'                                             ## KUS
 alias ofc='ssh evgeny@office.evgn.ru'                                           ## OFC
-alias test='ssh evgeny@test.evgn.ru'						## TEST
+alias test='mosh evgeny@test.evgn.ru'						## TEST
 
 ### OPERATION ###
 alias r="clear && archey -l retro && source ~/.zshrc"                           ## R - reset
