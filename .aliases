@@ -1,5 +1,5 @@
 ### SSH SERVER LINKS ###
-alias doc='ssh evgeny@doc.evgn.ru'                                              ## DOC
+alias doc='mosh evgeny@doc.evgn.ru'                                              ## DOC
 alias prh='ssh root@prh.su'                                                     ## PRH
 alias evgn='ssh evgeny@evgn.ru'                                                 ## EVGN
 alias cloud='ssh evgeny@cloud.kushnaren.co'                                     ## CLOUD
