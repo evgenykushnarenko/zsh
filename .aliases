@@ -62,4 +62,4 @@ alias idlee='python -m idlelib.idle'                                            
 ### GIT ###
 alias gcos='git add -A && git commit -m "Message"'                                                  ## GCOS Git add all & Git commit
 alias gpush='git push origin main'                                                                  ## GPUSH Git push origin main
-alias gg='gcos && gpush'                                                                            ##GG Gcos + Gpush
+alias gg='gcos && gpush'                                                                            ##GG Gcos + Gpush.
