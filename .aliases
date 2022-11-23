@@ -7,7 +7,7 @@ alias bot='ssh evgeny@bot.kushnaren.co'                                         
 alias nas='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.50.11'  ## NAS
 alias wig='ssh evgeny@wg.kushnaren.co'                                          ## WIG
 alias kus='mosh evgeny@kushnaren.co'                                             ## KUS
-alias ofc='ssh evgeny@office.evgn.ru'                                           ## OFC
+alias ofc='mosh evgeny@office.evgn.ru'                                           ## OFC
 alias test='mosh evgeny@test.evgn.ru'						## TEST
 
 ### OPERATION ###
