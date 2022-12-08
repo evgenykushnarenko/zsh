@@ -65,4 +65,4 @@ alias gpush='git push origin main'                                              
 alias gg='gcos && gpush'                                                                            ##GG Gcos + Gpush.
 
 ### VIM ###
-alias vim='nvim'
+alias vim='/Users/evgeny/.local/bin/lvim'
