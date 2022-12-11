@@ -66,3 +66,6 @@ alias gg='gcos && gpush'                                                        
 
 ### VIM ###
 alias vim='/Users/evgeny/.local/bin/lvim'
+
+### NEOMUTT ###
+alias n='neomutt'
