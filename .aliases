@@ -53,7 +53,7 @@ alias zshconfig='mate ~/.zshrc'
 alias ohmyzsh='mate ~/.oh-my-zsh'
 alias icon='sudo killall -s SIGINT com.apple.quicklook.ThumbnailsAgent && sudo killall -s SIGINT Dock'
 alias dsstore='find . -name ".DS_Store" -print -delete'
-alias weather='curl ru.wttr.in/~Каменск-Шахтинский'
+alias weather='curl ru.wttr.in/~Каменск-Шахтинский?m'
 ### PYTHON ###
 alias act='source venv/bin/activate'
 alias dact='deactivate'
